@@ -33,17 +33,17 @@ document.addEventListener("popstate", mainRouter);
 // Main router
 function mainRouter(params) {
   const routes = [
-    { path: "", view: home },
-    { path: "Contact", view: contact },
-    { path: "Questions", view: questions },
-    { path: "Updates", view: updates },
-    { path: "Login-Register", view: login },
+    { path: "/", view: home },
+    { path: "/Contact", view: contact },
+    { path: "/Questions", view: questions },
+    { path: "/Updates", view: updates },
+    { path: "/Login-Register", view: login },
   ];
 
   const potentialRoutes = routes.map((item) => {
     return {
       route: item,
-      isMatch: location.pathname.split("/").slice(-1)[0] == item.path,
+      isMatch: location.pathname == item.path,
     };
   });
 
