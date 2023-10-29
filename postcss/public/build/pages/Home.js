@@ -85,7 +85,7 @@ const home = () => {
       <div
         class="ml-3 lg:max-w-[450px] backdrop:grid place-items-center lg:-mt-4 w-8/12"
       >
-        <img src="./assets/hero.png" alt="" class="w-full" />
+        <img src="./postcss/public/build/assets/hero.png" alt="" class="w-full" />
       </div>
     </section>
 
@@ -98,7 +98,7 @@ const home = () => {
         class="flex flex-col-reverse items-center lg:flex-row lg:justify-between lg:flex px-1 w-screen lg:px-12 max-w-[1440px] py-6 pb-12"
       >
         <img
-          src="./assets/feature-1.png"
+        src="./postcss/public/build/assets/feature-1.png" 
           alt=""
           class="lg:max-w-[45%] justify-self-start lg:justify-self-center w-10/12 mt-5"
         />
@@ -258,7 +258,7 @@ const home = () => {
       <div
         class="ml-3 lg:max-w-[450px] backdrop:grid place-items-center w-8/12 mt-10"
       >
-        <img src="./assets/card.png" alt="" class="w-full" />
+        <img src="./postcss/public/build/assets/card.png" alt="" class="w-full" />
       </div>
 
       <p
@@ -303,7 +303,7 @@ const home = () => {
       <div
         class="p-8 w-full section-1 flex flex-col items-center -mt-8 max-w-[450px]"
       >
-        <img src="./assets/world.png" alt="" class="w-full" />
+        <img src="./postcss/public/build/assets/world.png" alt="" class="w-full" />
       </div>
 
       <p
@@ -341,7 +341,7 @@ const home = () => {
       <div
         class="p-8 w-full max-w-[450px] section-1 flex flex-col items-center -mt-8"
       >
-        <img src="./assets/safe.png" alt="" class="w-full" />
+        <img src="./postcss/public/build/assets/safe.png" alt="" class="w-full" />
       </div>
 
       <p
@@ -360,7 +360,7 @@ const home = () => {
         class="flex flex-col-reverse items-center lg:flex-row-reverse lg:justify-between lg:flex px-1 w-screen lg:px-12 max-w-[1440px] py-6 pb-12"
       >
         <img
-          src="./assets/feature-2.png"
+          src="./postcss/public/build/assets/feature-2.png"
           alt=""
           class="lg:max-w-[45%] justify-self-start lg:justify-self-center w-10/12 mt-5"
         />
