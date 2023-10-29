@@ -92,7 +92,7 @@ const home = () => {
     <!-- section 2.5 -->
 
     <section
-      class="w-screen grid place-items-center bg-gray-100 shadow-inner lg:mt-10"
+      class="w-screen grid place-items-center shadow-inner lg:mt-10 bg-primary  shadow-gray-700"
     >
       <div
         class="flex flex-col-reverse items-center lg:flex-row lg:justify-between lg:flex px-1 w-screen lg:px-12 max-w-[1440px] py-6 pb-12"
@@ -354,10 +354,10 @@ const home = () => {
 
     <!-- section 6 -->
     <section
-      class="w-screen grid place-items-center bg-gray-100 shadow-inner lg:mt-10"
+      class="w-screen grid place-items-center shadow-inner lg:mt-10 bg-primary shadow-gray-700 "
     >
       <div
-        class="flex flex-col-reverse items-center lg:flex-row lg:justify-between lg:flex px-1 w-screen lg:px-12 max-w-[1440px] py-6 pb-12"
+        class="flex flex-col-reverse items-center lg:flex-row-reverse lg:justify-between lg:flex px-1 w-screen lg:px-12 max-w-[1440px] py-6 pb-12"
       >
         <img
           src="./assets/feature-2.png"
@@ -548,13 +548,13 @@ const home = () => {
       "Danial is the best Programming Talent ,<br />
       I have ever seen in my life."
     </h6>
-    <p class="mt-5 text-xs text-slate-600 font-poppin">
-      <span class="font-semibold text-black"> My MAMA / </span> Co-founder
+    <p class="mt-5 text-xsfont-poppin">
+      <span class="font-semibold "> My MAMA / </span> Co-founder
       of me
     </p>
   </section>
   <!-- Footer -->
-  <footer class="w-screen p-20 grid place-items-center md:p-16 bg-gray-100">
+  <footer class="w-screen p-20 grid place-items-center md:p-16">
     <div
       class="flex flex-col gap-y-8 w-full items-center md:flex-row md:gap-x-4 md:justify-between max-w-[900px]"
     >
