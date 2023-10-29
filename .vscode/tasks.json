@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "dev",
+      "path": "postcss",
+      "problemMatcher": [],
+      "label": "npm: dev - postcss",
+      "detail": "postcss ./src/css/tailwind.css -o  ./public/build/tailwind.css --watch",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
