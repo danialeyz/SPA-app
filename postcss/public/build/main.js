@@ -33,7 +33,7 @@ document.addEventListener("popstate", mainRouter);
 // Main router
 function mainRouter(params) {
   const routes = [
-    { path: "index.html", view: home },
+    { path: "", view: home },
     { path: "Contact", view: contact },
     { path: "Questions", view: questions },
     { path: "Updates", view: updates },
@@ -46,6 +46,7 @@ function mainRouter(params) {
       isMatch: location.pathname.split("/").slice(-1)[0] == item.path,
     };
   });
+
   let match = potentialRoutes.find((e) => e.isMatch);
 
   if (!match) {
