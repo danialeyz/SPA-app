@@ -6,12 +6,16 @@ import updates from "./pages/Updates.js";
 import home from "./pages/Home.js";
 
 //global variables
+const documentId = document.querySelector("#document");
+const themeDrop = document.querySelector("#theme-drop");
+const themeItem = document.querySelectorAll("#theme-option");
 const menuIcon = document.querySelector(".ham-mennu");
 const navLogo = document.querySelector(".nav-logo");
 const navbarMain = document.querySelector(".navbar-main");
 const menuDrop = document.querySelector(".menu-drop");
 
 //Event listeners
+themeDrop.addEventListener("click", themeChanger);
 navbarMain.addEventListener("click", mobileNavRouter);
 menuDrop.addEventListener("click", () => {
   menuDrop.classList.toggle("hidden");
@@ -40,6 +44,7 @@ function mainRouter(params) {
     { path: "/Login-Register", view: login },
   ];
 
+  //
   const potentialRoutes = routes.map((item) => {
     return {
       route: item,
@@ -59,14 +64,6 @@ function mainRouter(params) {
   document.querySelector("#app").innerHTML = match.route.view();
 }
 
-// function pathnameHandler(e) {
-//   if (e.target.matches("[data-link]")) {
-//     e.preventDefault();
-
-//     console.log(e.target.href.split("/").slice(-1)[0]);
-//   }
-// }
-
 //navigator
 function navigator(url) {
   history.pushState(null, null, url);
@@ -80,4 +77,30 @@ function mobileNavRouter(e) {
   } else if (className.includes("ham-menu")) {
     menuDrop.classList.remove("hidden");
   }
+}
+
+// for changing theme
+function themeChanger(e) {
+  const themeItems = [...themeDrop.childNodes];
+  console.log(e.target.classList[0]);
+  themeItems.forEach((item) => {
+    switch (e.target.classList[0]) {
+      //all item
+      case "cupcake":
+        documentId.setAttribute("data-theme", "cupcake");
+        break;
+      case "dark":
+        documentId.setAttribute("data-theme", "dark");
+        break;
+      case "retro":
+        documentId.setAttribute("data-theme", "retro");
+        break;
+      case "luxury":
+        documentId.setAttribute("data-theme", "luxury");
+        break;
+      case "light":
+        documentId.setAttribute("data-theme", "light");
+        break;
+    }
+  });
 }
