@@ -5,10 +5,10 @@ This is a single page application (SPA) project made with DaisyUI and TailwindCS
 ![](https://github.com/danialeyz/SPA-app/blob/156d261ea01e67e6f28d5ffa4bd6287533826f5d/Screen%20Shot%201402-08-09%20at%2016.06.57.png)
 
 ## Pages
--Landing
--Updates
--Contact With us
--Common questions
+- Landing
+- Updates
+- Contact With us
+- Common questions
 
 ### Home Page
 
