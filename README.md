@@ -2,6 +2,8 @@
 
 This is a single page application (SPA) project made with DaisyUI and TailwindCSS, two CSS frameworks that offer multiple themes and interactive features. The project includes seven different themes and three different pages that showcase the capabilities of DaisyUI and TailwindCSS.
 
+![](https://github.com/danialeyz/SPA-app/blob/156d261ea01e67e6f28d5ffa4bd6287533826f5d/Screen%20Shot%201402-08-09%20at%2016.06.57.png)
+
 ## Pages
 -Landing
 -Updates
@@ -23,6 +25,9 @@ The contact page includes a form that allows users to send a message to the supp
 ## Themes
 
 The project includes seven different themes that can be easily switched using the toggle button in the header. The themes are:
+
+![](https://github.com/danialeyz/SPA-app/blob/156d261ea01e67e6f28d5ffa4bd6287533826f5d/Screen%20Shot%201402-08-09%20at%2016.07.29.png)
+![](https://github.com/danialeyz/SPA-app/blob/156d261ea01e67e6f28d5ffa4bd6287533826f5d/Screen%20Shot%201402-08-09%20at%2016.07.43.png)
 
 - Light
 - Dark
