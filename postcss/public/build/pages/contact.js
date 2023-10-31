@@ -1,5 +1,5 @@
 const contact = () => {
-  return `    <section
+  return `        <section
   class="w-screen h-full flex items-center flex-col mt-20 max-w-[1440px] mx-auto"
 >
   <section
@@ -27,8 +27,12 @@ const contact = () => {
         </svg>
 
         <div>
-          <h6>99.99% uptime</h6>
-          <p>for Flowbite, with zero maintenance downtime</p>
+          <h6 class="font-pixely text-purple-500 font-bold text-xl">
+            99.99% uptime
+          </h6>
+          <p class="font-semibold text-sm">
+            for Flowbite, with zero maintenance downtime
+          </p>
         </div>
       </div>
 
@@ -49,8 +53,12 @@ const contact = () => {
         </svg>
 
         <div>
-          <h6>600M+ Users</h6>
-          <p>trusted by over 600 milion users around the world</p>
+          <h6 class="font-pixely text-purple-500 font-bold text-xl">
+            600M+ Users
+          </h6>
+          <p class="font-semibold text-sm">
+            trusted by over 600 milion users around the world
+          </p>
         </div>
       </div>
 
@@ -71,8 +79,10 @@ const contact = () => {
         </svg>
 
         <div>
-          <h6>Millions</h6>
-          <p>of transactions per day</p>
+          <h6 class="font-pixely text-purple-500 font-bold text-xl">
+            Millions
+          </h6>
+          <p class="font-semibold text-sm">of transactions per day</p>
         </div>
       </div>
 
@@ -95,8 +105,12 @@ const contact = () => {
         </svg>
 
         <div>
-          <h6>100+ countries</h6>
-          <p>have used Flowbite to create functional websites</p>
+          <h6 class="font-pixely text-purple-500 font-bold text-xl">
+            100+ countries
+          </h6>
+          <p class="font-semibold text-sm">
+            have used Flowbite to create functional websites
+          </p>
         </div>
       </div>
     </div>
