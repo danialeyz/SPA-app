@@ -28,13 +28,14 @@ const home = () => {
       </a>
 
       <p
-        class="text-center text-gray-500 mt-8 text-xs font-poppin font-normal sm:text-base lg:text-lg"
+        class="text-center text-gray-500 mt-8 text-xs font-poppin font-normal sm:text-base lg:text-lg max-w-[600px]"
       >
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum
-        in necessitatibus odio vero aut delectus, eveniet temporibus eos
-        accusamus eum provident, tempore, nisi nemo saepe animi amet! At
-        labore non blanditiis mollitia possimus culpa ex, unde sunt, ipsa
-        facilis enim?
+        Welcome to our website, where you'll find the most intelligent
+        applications available. Discover cutting-edge technology and
+        innovative solutions designed to enhance your productivity and
+        simplify your life. Experience the power of artificial intelligence
+        and unlock a world of endless possibilities. Explore our intelligent
+        applications today.
       </p>
 
       <svg
@@ -64,41 +65,44 @@ const home = () => {
         <h4
           class="font-poppin font-bold text-center text-2xl sm:text-4xl lg:text-6xl lg:text-left"
         >
-          Fully on
+          Many Interactive
           <span
             class="text-purple-500 font-pixely text-2xl sm:text-5xl lg:text-7xl"
-            >WEB</span
+            >FEATURES ,</span
           >
-          And Useable On any Devices
+          Dynamic and Smart
         </h4>
 
         <p
           class="text-center text-gray-500 mt-4 text-xs font-poppin font-normal sm:text-base lg:mt-10 lg:text-lg lg:text-left"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Necessitatibus recusandae natus voluptatum magnam? Quidem
-          voluptate cum aperiam facere magni, voluptatibus dignissimos,
-          magnam labore officia asperiores ipsa molestias exercitationem.
-          Corrupti, voluptatum!
+          Experience the power of cutting-edge technology fully accessible
+          on the web and compatible with any device. Upgrade your digital
+          experience today.
         </p>
       </div>
+
       <div
         class="ml-3 lg:max-w-[450px] backdrop:grid place-items-center lg:-mt-4 w-8/12"
       >
-        <img src="./postcss/public/build/assets/hero.png" alt="" class="w-full" />
+        <img
+          src="./postcss/public/build/assets/hero.png"
+          alt=""
+          class="w-full"
+        />
       </div>
     </section>
 
     <!-- section 2.5 -->
 
     <section
-      class="w-screen grid place-items-center shadow-inner lg:mt-10 bg-primary  shadow-gray-700"
+      class="w-screen grid place-items-center shadow-inner lg:mt-10 bg-primary shadow-gray-700"
     >
       <div
         class="flex flex-col-reverse items-center lg:flex-row lg:justify-between lg:flex px-1 w-screen lg:px-12 max-w-[1440px] py-6 pb-12"
       >
         <img
-        src="./postcss/public/build/assets/feature-1.png" 
+          src="./postcss/public/build/assets/feature-1.png"
           alt=""
           class="lg:max-w-[45%] justify-self-start lg:justify-self-center w-10/12 mt-5"
         />
@@ -107,7 +111,7 @@ const home = () => {
           class="text-center relative lg:px-5 lg:w-6/12 lg:self-start lg:mt-10 w-11/12 md:w-8/12"
         >
           <h4
-            class="font-poppin font-bold text-center text-xl sm:text-4xl lg:text-4xl lg:text-right"
+            class="font-poppin font-bold text-center text-xl sm:text-4xl lg:text-5xl lg:text-right"
           >
             Fully on
             <span
@@ -120,11 +124,9 @@ const home = () => {
           <p
             class="text-center text-gray-500 mt-4 text-xs font-poppin font-normal sm:text-base lg:mt-10 lg:text-base lg:text-right"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus recusandae natus voluptatum magnam? Quidem
-            voluptate cum aperiam facere magni, voluptatibus dignissimos,
-            magnam labore officia asperiores ipsa molestias exercitationem.
-            Corrupti, voluptatum!
+            Experience seamless browsing with our website that's fully
+            optimized for any device. Access our content anytime, anywhere,
+            and on any gadget with ease.
           </p>
 
           <hr class="lg:border-t-[3px] mt-5 mx-auto my-auto" />
@@ -152,7 +154,7 @@ const home = () => {
                 <h6
                   class="text-left font-poppin font-medium text-sm flex-nowrap min-w-full"
                 >
-                  Lorem ipsum dolor sit, amet consectetur.
+                  Responsive web design for all devices
                 </h6>
               </li>
 
@@ -175,7 +177,7 @@ const home = () => {
                 <h6
                   class="text-left font-poppin font-medium text-sm min-w-full"
                 >
-                  Lorem ipsum dolor sit, amet consectetur.
+                  Mobile-friendly website development
                 </h6>
               </li>
 
@@ -198,7 +200,7 @@ const home = () => {
                 <h6
                   class="text-left font-poppin font-medium text-sm min-w-full"
                 >
-                  Lorem ipsum dolor sit, amet consectetur.
+                  Cross-platform web application development
                 </h6>
               </li>
 
@@ -221,7 +223,7 @@ const home = () => {
                 <h6
                   class="text-left font-poppin font-medium text-sm min-w-full"
                 >
-                  Lorem ipsum dolor sit, amet consectetur.
+                  Web-based software accessible on any device
                 </h6>
               </li>
             </ul>
@@ -249,16 +251,20 @@ const home = () => {
         <p
           class="text-center text-gray-500 mt-4 text-xs font-poppin font-normal sm:text-base lg:text-left"
         >
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Blanditiis quidem aut animi quos deleniti eum aliquam quisquam in
-          rem quam!
+          Discover the best web applications at unbeatable prices. Get
+          access to top-notch tools and software for your business needs
+          today.
         </p>
       </div>
 
       <div
         class="ml-3 lg:max-w-[450px] backdrop:grid place-items-center w-8/12 mt-10"
       >
-        <img src="./postcss/public/build/assets/card.png" alt="" class="w-full" />
+        <img
+          src="./postcss/public/build/assets/card.png"
+          alt=""
+          class="w-full"
+        />
       </div>
 
       <p
@@ -294,16 +300,19 @@ const home = () => {
         <p
           class="text-center text-gray-500 mt-4 text-xs font-poppin font-normal sm:text-base"
         >
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Blanditiis quidem aut animi quos deleniti eum aliquam quisquam in
-          rem quam!
+          Take your business to the next level with our unbeatable prices on
+          DAPPS and WEB3 related apps. Access cutting-edge tools today!
         </p>
       </div>
 
       <div
         class="p-8 w-full section-1 flex flex-col items-center -mt-8 max-w-[450px]"
       >
-        <img src="./postcss/public/build/assets/world.png" alt="" class="w-full" />
+        <img
+          src="./postcss/public/build/assets/world.png"
+          alt=""
+          class="w-full"
+        />
       </div>
 
       <p
@@ -332,16 +341,20 @@ const home = () => {
         <p
           class="text-center text-gray-500 mt-4 text-xs font-poppin font-normal sm:text-base lg:text-right"
         >
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Blanditiis quidem aut animi quos deleniti eum aliquam quisquam in
-          rem quam!
+          Ensure the security of your projects with our most safe SMART
+          CONTRACTS. Trust in our expertise and let us bring your ideas to
+          life.
         </p>
       </div>
 
       <div
         class="p-8 w-full max-w-[450px] section-1 flex flex-col items-center -mt-8"
       >
-        <img src="./postcss/public/build/assets/safe.png" alt="" class="w-full" />
+        <img
+          src="./postcss/public/build/assets/safe.png"
+          alt=""
+          class="w-full"
+        />
       </div>
 
       <p
@@ -354,7 +367,7 @@ const home = () => {
 
     <!-- section 6 -->
     <section
-      class="w-screen grid place-items-center shadow-inner lg:mt-10 bg-primary shadow-gray-700 "
+      class="w-screen grid place-items-center shadow-inner lg:mt-10 bg-primary shadow-gray-700"
     >
       <div
         class="flex flex-col-reverse items-center lg:flex-row-reverse lg:justify-between lg:flex px-1 w-screen lg:px-12 max-w-[1440px] py-6 pb-12"
@@ -369,24 +382,25 @@ const home = () => {
           class="text-center relative lg:px-5 lg:w-6/12 lg:self-start lg:mt-10 w-11/12 md:w-8/12"
         >
           <h4
-            class="font-poppin font-bold text-center text-xl sm:text-4xl lg:text-4xl lg:text-left"
+            class="font-poppin font-bold text-center text-xl sm:text-4xl lg:text-5xl lg:text-left"
           >
-            Fully on
+            Secure Your
             <span
-              class="text-purple-500 font-pixely text-2xl sm:text-5xl lg:text-5xl"
-              >WEB</span
+              class="text-purple-500 font-pixely text-2xl sm:text-5xl lg:text-6xl"
+              >BUSINESS</span
             >
-            And Useable On any Devices
+            With Our Dapp Service .
           </h4>
 
           <p
             class="text-center text-gray-500 mt-4 text-xs font-poppin font-normal sm:text-base lg:mt-10 lg:text-base lg:text-left"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus recusandae natus voluptatum magnam? Quidem
-            voluptate cum aperiam facere magni, voluptatibus dignissimos,
-            magnam labore officia asperiores ipsa molestias exercitationem.
-            Corrupti, voluptatum!
+            Protecting your business is crucial in today's digital age. With
+            our secure Dapp service, you can rest assured that your ideas
+            and sensitive information are safe. Our team of experts will
+            work with you to bring your vision to life while ensuring the
+            utmost security. Trust us to secure your business and give you
+            peace of mind.
           </p>
 
           <hr class="lg:border-t-[3px] mt-5 mx-auto my-auto" />
@@ -414,7 +428,7 @@ const home = () => {
                 <h6
                   class="text-left font-poppin font-medium text-sm flex-nowrap min-w-full"
                 >
-                  Lorem ipsum dolor sit, amet consectetur.
+                  Protecting your business with Dapp technology
                 </h6>
               </li>
 
@@ -437,7 +451,7 @@ const home = () => {
                 <h6
                   class="text-left font-poppin font-medium text-sm min-w-full"
                 >
-                  Lorem ipsum dolor sit, amet consectetur.
+                  Blockchain-based security for businesses
                 </h6>
               </li>
 
@@ -460,7 +474,7 @@ const home = () => {
                 <h6
                   class="text-left font-poppin font-medium text-sm min-w-full"
                 >
-                  Lorem ipsum dolor sit, amet consectetur.
+                  Safeguarding your company with our Dapp
                 </h6>
               </li>
 
@@ -483,7 +497,7 @@ const home = () => {
                 <h6
                   class="text-left font-poppin font-medium text-sm min-w-full"
                 >
-                  Lorem ipsum dolor sit, amet consectetur.
+                  Secure your business with our decentralized app
                 </h6>
               </li>
             </ul>
@@ -507,11 +521,13 @@ const home = () => {
           </h4>
 
           <p
-            class="text-gray-200 mt-4 text-xs font-poppin font-normal sm:text-base lg:text-lg lg:text-center lg:self-center max-w-[40rem] text-center my-auto mx-auto"
+            class="text-gray-200 mt-4 text-xs font-poppin font-normal sm:text-base lg:text-base lg:text-center lg:self-center max-w-[40rem] text-center my-auto mx-auto"
           >
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Blanditiis quidem aut animi quos deleniti eum aliquam quisquam
-            in rem quam!
+            Ready to secure your business? Book your consultation session
+            now with our team of experts. We'll work with you to understand
+            your needs and provide tailored solutions to protect your ideas
+            and sensitive information. Don't wait until it's too late,
+            schedule your consultation today and gain peace of mind.
           </p>
 
           <a
@@ -549,8 +565,7 @@ const home = () => {
       I have ever seen in my life."
     </h6>
     <p class="mt-5 text-xsfont-poppin">
-      <span class="font-semibold "> My MAMA / </span> Co-founder
-      of me
+      <span class="font-semibold"> My MAMA / </span> Co-founder of me
     </p>
   </section>
   <!-- Footer -->

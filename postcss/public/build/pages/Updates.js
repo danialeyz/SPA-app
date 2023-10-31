@@ -1,5 +1,5 @@
 const Updates = () => {
-  return ` <section class="w-screen h-full mt-8">
+  return `    <section class="w-screen h-full mt-8">
   <div class="mx-auto grid place-items-center">
     <section class="mb-5 md:px-16">
       <!-- Icon Blocks -->
@@ -35,12 +35,13 @@ const Updates = () => {
               </div>
               <div class="flex-shrink-0">
                 <h3 class="block text-lg font-semibold">
-                  Build your portfolio
+                  Exciting New Features
                 </h3>
               </div>
             </div>
             <p class="">
-              The simplest way to keep your portfolio always up-to-date.
+              Discover the latest enhancements we've made to our website!
+              Explore our Updates page for an improved browsing experience.
             </p>
           </div>
           <!-- End Card -->
@@ -71,12 +72,12 @@ const Updates = () => {
               </div>
               <div class="flex-shrink-0">
                 <h3 class="block text-lg font-semibold">
-                  Build your portfolio
+                  Enhanced User Interface
                 </h3>
               </div>
             </div>
             <p class="">
-              The simplest way to keep your portfolio always up-to-date.
+              Enjoy a more intuitive and user-friendly website design.
             </p>
           </div>
           <!-- End Card -->
@@ -107,12 +108,13 @@ const Updates = () => {
               </div>
               <div class="flex-shrink-0">
                 <h3 class="block text-lg font-semibold">
-                  Build your portfolio
+                  Improved Search Functionality
                 </h3>
               </div>
             </div>
             <p class="">
-              The simplest way to keep your portfolio always up-to-date.
+              Find what you need with even more accurate and relevant search
+              results.
             </p>
           </div>
           <!-- End Card -->
@@ -142,12 +144,12 @@ const Updates = () => {
               </div>
               <div class="flex-shrink-0">
                 <h3 class="block text-lg font-semibold">
-                  Build your portfolio
+                  Personalized Recommendations
                 </h3>
               </div>
             </div>
             <p class="">
-              The simplest way to keep your portfolio always up-to-date.
+              Discover tailored content based on your preferences.
             </p>
           </div>
           <!-- End Card -->
@@ -176,12 +178,12 @@ const Updates = () => {
               </div>
               <div class="flex-shrink-0">
                 <h3 class="block text-lg font-semibold">
-                  Get freelance work
+                  Streamlined Checkout Process
                 </h3>
               </div>
             </div>
             <p class="">
-              New design projects delivered to your inbox each morning.
+              Enjoy a faster and more efficient shopping experience.
             </p>
           </div>
           <!-- End Card -->
@@ -208,13 +210,12 @@ const Updates = () => {
                 </svg>
               </div>
               <div class="flex-shrink-0">
-                <h3 class="block text-lg font-semibold">Sell your goods</h3>
+                <h3 class="block text-lg font-semibold">
+                  Mobile-Friendly Design
+                </h3>
               </div>
             </div>
-            <p class="">
-              Get your goods in front of millions of potential customers
-              with ease.
-            </p>
+            <p class="">Access our website seamlessly on any device.</p>
           </div>
           <!-- End Card -->
 
@@ -242,13 +243,11 @@ const Updates = () => {
               </div>
               <div class="flex-shrink-0">
                 <h3 class="block text-lg font-semibold">
-                  Get freelance work
+                  Enhanced Security Measures
                 </h3>
               </div>
             </div>
-            <p class="">
-              New design projects delivered to your inbox each morning.
-            </p>
+            <p class="">Your online security is our priority.</p>
           </div>
           <!-- End Card -->
 
@@ -274,13 +273,12 @@ const Updates = () => {
                 </svg>
               </div>
               <div class="flex-shrink-0">
-                <h3 class="block text-lg font-semibold">Sell your goods</h3>
+                <h3 class="block text-lg font-semibold">
+                  Interactive Live Chat Support
+                </h3>
               </div>
             </div>
-            <p class="">
-              Get your goods in front of millions of potential customers
-              with ease.
-            </p>
+            <p class="">Get instant help from our support team.</p>
           </div>
           <!-- End Card -->
 
@@ -310,12 +308,13 @@ const Updates = () => {
               </div>
               <div class="flex-shrink-0">
                 <h3 class="block text-lg font-semibold">
-                  Build your portfolio
+                  Faster Loading Speeds
                 </h3>
               </div>
             </div>
             <p class="">
-              The simplest way to keep your portfolio always up-to-date.
+              Experience quicker page loading times for a smoother browsing
+              experience.
             </p>
           </div>
           <!-- End Card -->
@@ -332,13 +331,14 @@ const Updates = () => {
           id="first"
           class="px-4 py-1 bg-gray-100 w-11/12 mx-auto rounded-2xl shadow-md"
         >
-          <h3 class="text-lg font-semibold">First</h3>
+          <h3 class="text-lg font-semibold">
+            Introducing Exciting New Features
+          </h3>
           <p class="mt-1 text-sm leading-6 text-gray-600">
-            This is some placeholder content for the scrollspy page. Note
-            that as you scroll down the page, the appropriate navigation
-            link is highlighted. It's repeated throughout the component
-            example. We keep adding some more example copy here to emphasize
-            the scrolling and highlighting.
+            Explore our Updates page to discover the latest enhancements
+            we've made to our website! From improved user interface to
+            enhanced search functionality, we've added a range of exciting
+            new features to enhance your browsing experience.
           </p>
         </div>
 
@@ -346,13 +346,12 @@ const Updates = () => {
           id="first"
           class="px-4 py-1 bg-gray-100 w-11/12 mx-auto rounded-2xl shadow-md"
         >
-          <h3 class="text-lg font-semibold">First</h3>
+          <h3 class="text-lg font-semibold">Enhanced User Interface</h3>
           <p class="mt-1 text-sm leading-6 text-gray-600">
-            This is some placeholder content for the scrollspy page. Note
-            that as you scroll down the page, the appropriate navigation
-            link is highlighted. It's repeated throughout the component
-            example. We keep adding some more example copy here to emphasize
-            the scrolling and highlighting.
+            We've revamped our website's interface to provide a more
+            intuitive and user-friendly experience. Enjoy a visually
+            appealing design, streamlined navigation, and easy access to key
+            features and content.
           </p>
         </div>
 
@@ -360,13 +359,14 @@ const Updates = () => {
           id="first"
           class="px-4 py-1 bg-gray-100 w-11/12 mx-auto rounded-2xl shadow-md"
         >
-          <h3 class="text-lg font-semibold">First</h3>
+          <h3 class="text-lg font-semibold">
+            Improved Search Functionality
+          </h3>
           <p class="mt-1 text-sm leading-6 text-gray-600">
-            This is some placeholder content for the scrollspy page. Note
-            that as you scroll down the page, the appropriate navigation
-            link is highlighted. It's repeated throughout the component
-            example. We keep adding some more example copy here to emphasize
-            the scrolling and highlighting.
+            Our updated search feature now delivers even more accurate and
+            relevant results. Whether you're searching for products,
+            articles, or information, our improved search functionality
+            ensures you find what you need quickly and efficiently.
           </p>
         </div>
 
@@ -374,13 +374,15 @@ const Updates = () => {
           id="first"
           class="px-4 py-1 bg-gray-100 w-11/12 mx-auto rounded-2xl shadow-md"
         >
-          <h3 class="text-lg font-semibold">First</h3>
+          <h3 class="text-lg font-semibold">
+            Personalized Recommendations
+          </h3>
           <p class="mt-1 text-sm leading-6 text-gray-600">
-            This is some placeholder content for the scrollspy page. Note
-            that as you scroll down the page, the appropriate navigation
-            link is highlighted. It's repeated throughout the component
-            example. We keep adding some more example copy here to emphasize
-            the scrolling and highlighting.
+            We've implemented a new recommendation system that tailors
+            content specifically to your preferences. Discover personalized
+            suggestions based on your browsing history, interests, and
+            previous interactions with our website. Explore new areas of
+            interest and find relevant content effortlessly.
           </p>
         </div>
 
@@ -388,13 +390,73 @@ const Updates = () => {
           id="first"
           class="px-4 py-1 bg-gray-100 w-11/12 mx-auto rounded-2xl shadow-md"
         >
-          <h3 class="text-lg font-semibold">First</h3>
+          <h3 class="text-lg font-semibold">
+            Streamlined Checkout Process
+          </h3>
           <p class="mt-1 text-sm leading-6 text-gray-600">
-            This is some placeholder content for the scrollspy page. Note
-            that as you scroll down the page, the appropriate navigation
-            link is highlighted. It's repeated throughout the component
-            example. We keep adding some more example copy here to emphasize
-            the scrolling and highlighting.
+            We understand the importance of a smooth and hassle-free
+            shopping experience. That's why we've optimized our checkout
+            process to make it faster and more efficient. Enjoy a simplified
+            and intuitive checkout flow, multiple payment options, and a
+            seamless transaction process.
+          </p>
+        </div>
+
+        <div
+          id="first"
+          class="px-4 py-1 bg-gray-100 w-11/12 mx-auto rounded-2xl shadow-md"
+        >
+          <h3 class="text-lg font-semibold">Mobile-Friendly Design</h3>
+          <p class="mt-1 text-sm leading-6 text-gray-600">
+            In today's mobile-driven world, we've ensured that our website
+            is fully responsive and mobile-friendly. Whether you're
+            accessing our website from a smartphone, tablet, or any other
+            device, you can enjoy a seamless browsing experience with
+            optimized layouts and functionality.
+          </p>
+        </div>
+
+        <div
+          id="first"
+          class="px-4 py-1 bg-gray-100 w-11/12 mx-auto rounded-2xl shadow-md"
+        >
+          <h3 class="text-lg font-semibold">Enhanced Security Measures</h3>
+          <p class="mt-1 text-sm leading-6 text-gray-600">
+            Your online security is our top priority. With our latest
+            updates, we've implemented advanced security measures to protect
+            your personal information, secure transactions, and provide a
+            safe browsing environment. Rest assured that your data is in
+            safe hands.
+          </p>
+        </div>
+
+        <div
+          id="first"
+          class="px-4 py-1 bg-gray-100 w-11/12 mx-auto rounded-2xl shadow-md"
+        >
+          <h3 class="text-lg font-semibold">
+            Interactive Live Chat Support
+          </h3>
+          <p class="mt-1 text-sm leading-6 text-gray-600">
+            Need assistance? Our new live chat feature allows you to connect
+            with our support team in real-time. Get instant help, ask
+            questions, and receive personalized support to resolve any
+            queries or concerns you may have. Our dedicated team is here to
+            assist you every step of the way.
+          </p>
+        </div>
+
+        <div
+          id="first"
+          class="px-4 py-1 bg-gray-100 w-11/12 mx-auto rounded-2xl shadow-md"
+        >
+          <h3 class="text-lg font-semibold">Faster Loading Speeds</h3>
+          <p class="mt-1 text-sm leading-6 text-gray-600">
+            We understand the importance of fast-loading web pages. With our
+            latest optimizations, we've improved the loading speed of our
+            website, ensuring that you can access content and navigate
+            through pages quickly and seamlessly. Enjoy a smoother browsing
+            experience with reduced waiting times.
           </p>
         </div>
       </div>

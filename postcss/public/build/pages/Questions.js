@@ -1,5 +1,5 @@
 const Questions = () => {
-  return `      <section
+  return `    <section
   class="w-screen h-full flex flex-col items-center font-poppin mt-10"
 >
   <section
@@ -14,12 +14,16 @@ const Questions = () => {
       <div
         class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
       >
-        Click me to show/hide content
+        How can I contact customer support?
       </div>
       <div
         class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
       >
-        <p>hello</p>
+        <p class="text-sm font-light">
+          You can reach our customer support team by calling our toll-free
+          number or sending us an email. Our contact information can be
+          found on the "Contact Us" page of our website.
+        </p>
       </div>
     </div>
 
@@ -28,12 +32,16 @@ const Questions = () => {
       <div
         class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
       >
-        Click me to show/hide content
+        What payment methods do you accept?
       </div>
       <div
         class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
       >
-        <p>hello</p>
+        <p class="text-sm font-light">
+          We accept various payment methods, including credit cards (Visa,
+          Mastercard, American Express), PayPal, and bank transfers. You can
+          choose the most convenient option during the checkout process.
+        </p>
       </div>
     </div>
 
@@ -42,12 +50,18 @@ const Questions = () => {
       <div
         class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
       >
-        Click me to show/hide content
+        How long does shipping usually take?
       </div>
       <div
         class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
       >
-        <p>hello</p>
+        <p class="text-sm font-light">
+          Shipping times may vary depending on your location and the product
+          you ordered. Typically, our standard shipping takes 3-7 business
+          days within the country. For international orders, it may take
+          longer. You can find more specific information on our "Shipping
+          and Delivery" page.
+        </p>
       </div>
     </div>
 
@@ -56,12 +70,17 @@ const Questions = () => {
       <div
         class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
       >
-        Click me to show/hide content
+        Can I return or exchange a product?
       </div>
       <div
         class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
       >
-        <p>hello</p>
+        <p class="text-sm font-light">
+          Yes, we have a hassle-free return and exchange policy. If you are
+          not satisfied with your purchase, you can return it within 30 days
+          for a refund or exchange. Please refer to our "Returns and
+          Refunds" page for detailed instructions.
+        </p>
       </div>
     </div>
 
@@ -70,12 +89,17 @@ const Questions = () => {
       <div
         class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
       >
-        Click me to show/hide content
+        Are your products eco-friendly?
       </div>
       <div
         class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
       >
-        <p>hello</p>
+        <p class="text-sm font-light">
+          We are committed to sustainability and offer a range of
+          eco-friendly products. We prioritize sourcing materials
+          responsibly and reducing our environmental impact. Look for our
+          "eco-friendly" label on product descriptions for more information.
+        </p>
       </div>
     </div>
 
@@ -84,12 +108,17 @@ const Questions = () => {
       <div
         class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
       >
-        Click me to show/hide content
+        Do you offer discounts or promotions?
       </div>
       <div
         class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
       >
-        <p>hello</p>
+        <p class="text-sm font-light">
+          Yes, we frequently run discounts and promotions. To stay updated
+          on our latest offers, sign up for our newsletter or follow us on
+          social media. Additionally, keep an eye out for special holiday
+          sales and clearance events.
+        </p>
       </div>
     </div>
 
@@ -98,12 +127,16 @@ const Questions = () => {
       <div
         class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
       >
-        Click me to show/hide content
+        Can I track my order?
       </div>
       <div
         class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
       >
-        <p>hello</p>
+        <p class="text-sm font-light">
+          Absolutely! Once your order is shipped, you will receive a
+          tracking number via email. You can use this number to track the
+          progress of your delivery on our website or the courier's website.
+        </p>
       </div>
     </div>
 
@@ -112,12 +145,17 @@ const Questions = () => {
       <div
         class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
       >
-        Click me to show/hide content
+        Are your products covered by a warranty?
       </div>
       <div
         class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
       >
-        <p>hello</p>
+        <p class="text-sm font-light">
+          Yes, most of our products come with a manufacturer's warranty. The
+          duration and coverage may vary depending on the product. Please
+          check the product description or contact our customer support for
+          specific warranty details.
+        </p>
       </div>
     </div>
 
@@ -126,12 +164,17 @@ const Questions = () => {
       <div
         class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
       >
-        Click me to show/hide content
+        Do you offer international shipping?
       </div>
       <div
         class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
       >
-        <p>hello</p>
+        <p class="text-sm font-light">
+          Yes, we offer international shipping to many countries. However,
+          please note that additional customs fees or import duties may
+          apply, which are the responsibility of the customer. Check our
+          "International Shipping" page for more information.
+        </p>
       </div>
     </div>
 
@@ -140,40 +183,17 @@ const Questions = () => {
       <div
         class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
       >
-        Click me to show/hide content
+        How can I unsubscribe from your newsletter?
       </div>
       <div
         class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
       >
-        <p>hello</p>
-      </div>
-    </div>
-
-    <div class="collapse bg-base-200 collapse-arrow">
-      <input type="checkbox" class="peer" />
-      <div
-        class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
-      >
-        Click me to show/hide content
-      </div>
-      <div
-        class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
-      >
-        <p>hello</p>
-      </div>
-    </div>
-
-    <div class="collapse bg-base-200 collapse-arrow">
-      <input type="checkbox" class="peer" />
-      <div
-        class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
-      >
-        Click me to show/hide content
-      </div>
-      <div
-        class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
-      >
-        <p>hello</p>
+        <p class="text-sm font-light">
+          To unsubscribe from our newsletter, simply click on the
+          "unsubscribe" link at the bottom of any newsletter email you
+          receive from us. You will be promptly removed from our mailing
+          list.
+        </p>
       </div>
     </div>
 
