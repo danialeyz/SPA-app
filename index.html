@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-link="" id="document">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -18,15 +18,88 @@
   <body class="m-0 p-0 overflow-x-hidden font-poppin" bodey>
     <!------------------ Main navbar -------------------->
     <nav
-      class="sticky top-3 left-0 h-16 w-11/12 flex flex-row justify-between items-center p-6 md:pl-36 md:pr-6 bg-secondary navbar-main font-light text-xs rounded-xl shadow-lg shadow-accent mx-auto font-poppin animate-jump-in duration-300 delay-500 z-40"
+      class="sticky top-3 left-0 h-16 w-11/12 flex flex-row justify-between items-center p-6 md:pl-5 md:pr-6 bg-secondary navbar-main font-light text-xs rounded-xl shadow-lg shadow-accent mx-auto font-poppin animate-jump-in duration-300 delay-500 z-40"
     >
-      <div class="h-fit ham-menu flex flex-row justify-center items-center">
-        <a
-          data-link
-          href="Login-Register"
-          class="hover:text-white hover:bg-purple-500 duration-300 ring-1 ring-purple-500 p-2 rounded-md hidden md:flex"
-          >Login | Register</a
+      <div class="dropdown dropdown-bottom md:hidden">
+        <label tabindex="0" class="btn m-1"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6 fill-secondary"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 9h16.5m-16.5 6.75h16.5"
+            />
+          </svg>
+        </label>
+        <ul
+          tabindex="0"
+          class="dropdown-content z-[10] menu p-2 shadow rounded-box w-52 mt-5 bg-secondary"
         >
+          <li><a href="Updates" data-link>Updates</a></li>
+          <li><a href="Contact" data-link>Contact</a></li>
+          <li><a href="Questions" data-link>Common Questions</a></li>
+        </ul>
+      </div>
+
+      <div class="h-fit ham-menu flex flex-row justify-center items-center">
+        <div class="dropdown mr-3 ring-1 ring-accent rounded-xl">
+          <label
+            tabindex="0"
+            class="btn btn-ghost rounded-btn btn-md hidden md:flex"
+            >Theme</label
+          >
+          <ul
+            id="theme-drop"
+            tabindex="0"
+            class="menu dropdown-content z-[1] shadow rounded-box w-52 mt-4 bg-primary text-base font-poppin font-medium cursor-pointer"
+          >
+            <li class="dark w-full h-full p-2 hover:bg-accent">
+              <a class="dark">dark</a>
+            </li>
+
+            <li class="light w-full h-full p-2 hover:bg-secondary">
+              <a class="light">light</a>
+            </li>
+
+            <li class="retro w-full h-full p-2">
+              <a class="retro">retro</a>
+            </li>
+            <li class="luxury w-full h-full p-2 hover:bg-secondary">
+              <a class="luxury">luxury</a>
+            </li>
+            <li class="cupcake w-full h-full p-2 hover:bg-secondary">
+              <a class="cupcake">cupcake</a>
+            </li>
+
+            <li class="synthwave w-full h-full p-2 hover:bg-secondary">
+              <a class="synthwave">synthwave</a>
+            </li>
+
+            <li class="cyberpunk w-full h-full p-2 hover:bg-secondary">
+              <a class="cyberpunk">cyberpunk</a>
+            </li>
+
+            <li class="coffee w-full h-full p-2 hover:bg-secondary">
+              <a class="coffee">coffee</a>
+            </li>
+
+            <li class="night w-full h-full p-2 bg-accent hover:bg-secondary">
+              <a class="night">night</a>
+            </li>
+
+            <li
+              class="valentine w-full h-full p-2 bg-accent hover:bg-secondary"
+            >
+              <a class="valentine">valentine</a>
+            </li>
+          </ul>
+        </div>
+
         <a
           data-link
           href="Updates"
@@ -45,20 +118,10 @@
           class="hover:text-purple-700 ml-5 hidden md:flex font-medium"
           >Common Questions</a
         >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          class="w-9 h-9 text-purpbg-purple-500 ham-menu md:hidden stroke-purple-500 text-purple-500 fill-purple-500"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M3 9a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 9zm0 6.75a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
-            clip-rule="evenodd"
-          />
-        </svg>
       </div>
+
       <div class="flex flex-row gap-x-2 cursor-pointer" data-link>
-        <a href=""
+        <a href="/"
           ><svg
             height="95.13483812146029"
             viewBox="0 0 184.46239407686954 64"
@@ -157,61 +220,7 @@
         ></a>
       </div>
     </nav>
-    <!------------------- !MODAL ----------------------->
-    <div
-      class="bg-stone-600 backdrop-blur-sm bg-opacity-20 w-screen h-screen m-0 p-0 menu-drop duration-500 flex items-center justify-center flex-col px-12 gap-y-9 hidden z-50 absolute top-0 bottom-0 left-0 right-0"
-    >
-      <div
-        type="button"
-        class="w-full h-16 ring-2 ring-purple-500 rounded-xl grid place-items-center hover:bg-purple-500 hover:text-white font-semibold text-xl animate-fade-down animate-once animate-duration-900"
-      >
-        <a
-          href="Contact"
-          class="w-full h-full grid place-items-center"
-          data-link
-        >
-          Contact with us</a
-        >
-      </div>
 
-      <div
-        class="w-full h-16 ring-2 ring-purple-500 rounded-xl grid place-items-center hover:bg-purple-500 hover:text-white duration-300 font-semibold text-xl animate-fade-down animate-once animate-duration-700"
-      >
-        <a
-          href="Questions"
-          class="w-full h-full grid place-items-center"
-          data-link
-        >
-          Common Questions</a
-        >
-      </div>
-
-      <div
-        class="w-full h-16 ring-2 ring-purple-500 rounded-xl grid place-items-center hover:bg-purple-500 hover:text-white duration-300 font-semibold text-xl animate-fade-down animate-once animate-duration-500"
-      >
-        <a
-          href="Updates"
-          class="w-full h-full grid place-items-center"
-          data-link
-        >
-          Updates</a
-        >
-      </div>
-
-      <div
-        data-link
-        href="Login-Register"
-        class="w-full h-16 ring-2 ring-purple-500 rounded-xl grid place-items-center hover:bg-purple-500 hover:text-white duration-300 font-semibold text-xl animate-fade-down animate-once animate-duration-300"
-      >
-        <a
-          href="Login-Register"
-          class="w-full h-full grid place-items-center"
-          data-link
-        >
-          Login | Register</a
-        >
-      </div>
-    </div>
     <main id="app" class=""></main>
     <script src="./postcss/public/build/main.js" type="module"></script>
   </body>

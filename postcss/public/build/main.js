@@ -1,6 +1,5 @@
 //Imported pages
 import contact from "./pages/contact.js";
-import login from "./pages/login.js";
 import questions from "./pages/Questions.js";
 import updates from "./pages/Updates.js";
 import home from "./pages/Home.js";
@@ -9,7 +8,6 @@ import home from "./pages/Home.js";
 const documentId = document.querySelector("#document");
 const themeDrop = document.querySelector("#theme-drop");
 const themeItem = document.querySelectorAll("#theme-option");
-const menuIcon = document.querySelector(".ham-mennu");
 const navLogo = document.querySelector(".nav-logo");
 const navbarMain = document.querySelector(".navbar-main");
 const menuDrop = document.querySelector(".menu-drop");
@@ -17,9 +15,6 @@ const menuDrop = document.querySelector(".menu-drop");
 //Event listeners
 themeDrop.addEventListener("click", themeChanger);
 navbarMain.addEventListener("click", mobileNavRouter);
-menuDrop.addEventListener("click", () => {
-  menuDrop.classList.toggle("hidden");
-});
 document.addEventListener("DOMContentLoaded", mainRouter);
 document.addEventListener("DOMContentLoaded", () => {
   document.body.addEventListener("click", (e) => {
@@ -41,7 +36,7 @@ function mainRouter(params) {
     { path: "/Contact", view: contact },
     { path: "/Questions", view: questions },
     { path: "/Updates", view: updates },
-    { path: "/Login-Register", view: login },
+    ,
   ];
 
   //
@@ -100,6 +95,26 @@ function themeChanger(e) {
         break;
       case "light":
         documentId.setAttribute("data-theme", "light");
+        break;
+
+      case "synthwave":
+        documentId.setAttribute("data-theme", "synthwave");
+        break;
+
+      case "cyberpunk":
+        documentId.setAttribute("data-theme", "cyberpunk");
+        break;
+
+      case "coffee":
+        documentId.setAttribute("data-theme", "coffee");
+        break;
+
+      case "night":
+        documentId.setAttribute("data-theme", "night");
+        break;
+
+      case "valentine":
+        documentId.setAttribute("data-theme", "valentine");
         break;
     }
   });
